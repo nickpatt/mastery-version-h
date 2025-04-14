@@ -1,0 +1,500 @@
+   16    git ls-files --others --exclude-standard
+   17  python3 driver.py
+   18  ./runner -h
+   19  ./runner -r
+   20       ./runner -r traces/random.rep
+   21  a
+   22  python3 driver.py
+   23  make
+   24  python3 driver.py
+   25       ./runner -r traces/random.rep
+   26       ./runner -r traces/random.rep
+   27       ./runner -r traces/random.rep
+   28  make
+   29  make
+   30  make
+   31       ./runner -r traces/random.rep
+   32  python3 driver.py
+   33  python3 driver.py
+   34  make
+   35  make
+   36  python3 driver.py
+   37  git commit -a -m "fixed open bins"
+   38  git push
+   39  make
+   40  python3 driver.py
+   41  git commit -a -m "Messed w some stuff in extend and split"
+   42  git push
+   43  git clone git@github.com:CS429-SP2025/se-lab-nickhil-soham.git
+   44  exit
+   45  make clean
+   46  test-hw
+   47  run test-hw
+   48  bin/test-hw -h
+   49  bin/test-hw -v 1
+   50  bin/test-hw -h
+   51  git commit -a -m "did cond_holds()"
+   52  git push
+   53  git commit -a -m "did regfile"
+   54  git push
+   55          ref/bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+   56          ref/bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+   57          ref/bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+   58          /bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+   59          bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+   60          diff my_output.txt ref_output.txt
+   61          diff my_output.txt ref_output.txt
+   62          diff my_output.txt ref_output.txt
+   63          bin/test-se -v 2 testcases/simple.bin > my_output.txt
+   64  git pull
+   65  git commit -a -m "testing"
+   66  git push
+   67  git pull
+   68  git pull
+   69  git add
+   70  git add .
+   71  git pull origin main --rebase
+   72  git pull
+   73  git pull origin main --rebase
+   74  git reset --hard HEAD
+   75  git pull origin main --rebase
+   76  git pull
+   77  git commit
+   78  git pull
+   79  git checkout main
+   80  git fetch origin
+   81  git reset --hard origin/main
+   82  git pull
+   83  git merge
+   84  git pull
+   85  git pull
+   86  git fetch
+   87  git merge
+   88  git status
+   89  git remote- v
+   90  git remote -v
+   91  gut kig
+   92  git log -n 1 main
+   93  git log -n 1 origin/main
+   94  git diff main origin/main -- src/pipe/instr_Decode.c
+   95          bin/test-se -v 2 testcases/simple.bin > my_output.txt
+   96          bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+   97          diff my_output.txt ref_output.txt
+   98  make all
+   99  make
+  100          bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+  101          bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+  102          diff my_output.txt ref_output.txt
+  103  git commit -a -m "finished decode and execute"
+  104  git push
+  105  bin/test-hw
+  106  bin/test-se
+  107  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  108  bin/test-se -v 2 testcases/simple.bin > ref_output.txt
+  109  diff my_output.txt ref_output.txt
+  110  make
+  111  make
+  112  bin/test-se
+  113  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  114  make
+  115  bin/test-se
+  116  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  117  make
+  118  make
+  119  make
+  120  make
+  121  make
+  122  make
+  123  bin/test-se
+  124  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  125  make
+  126  bin/test-se
+  127  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  128  make
+  129  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  130  make
+  131  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  132  make
+  133  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  134  bin/test-se -t testcases/simple.bin > my_output.txt
+  135  bin/test-se -v 2 -t testcases/simple.bin > my_output.txt
+  136  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  137  bin/test-se stur
+  138  bin/test-se -t
+  139  bin/test-se -v 2 testcases/simple.bin > my_output.txt
+  140  bin/test-se -v 2> fetch_debug.log
+  141  bin/test-se -v 2 > fetch_debug.log
+  142  bin/test-se 
+  143  bin/test-se 
+  144  make
+  145  make
+  146  bin/test-se 
+  147  bin/test-se 
+  148  make
+  149  bin/test-se 
+  150  bin/test-se -v 2
+  151  bin/test-se -t
+  152  bin/test-se -w 2 -v 2 > se_trace.txt
+  153  bin/test-se -w 2 -v 1
+  154  make
+  155  bin/test-se -w 2 -v 2 > se_trace.txt
+  156  bin/test-se -w 2
+  157  bin/test-se -w 2 > fetch_debug.log
+  158  make
+  159  bin/test-se -w 2 > fetch_debug.log
+  160  make
+  161  bin/test-se -w 2 > fetch_debug.log
+  162  bin/test-se -w 2
+  163  make
+  164  bin/test-se -w 2
+  165  make
+  166  bin/test-se -w 2
+  167  bin/test-se -w 2 > fetch_debug.log
+  168  bin/test-se -v 2 > fetch_debug.log
+  169  git commit -m -a "done everything now debug"
+  170  git commit -a -m "done code"
+  171  git push
+  172  bin/asm -o simple.o -s "mov x0, #1; mov x1, #2; add x2, x0, x1; ret"
+  173  bin/asm -o simple.o -s "mov x0, #1; mov x1, #2; add x2, x0, x1; ret"
+  174  make
+  175  bin/test-se -v 2 > fetch_debug.log
+  176  make
+  177  bin/test-se -v 2 > fetch_debug.log
+  178  make
+  179  make
+  180  bin/test-se -v 2 > fetch_debug.log
+  181  make
+  182  bin/test-se -v 2 > fetch_debug.log
+  183  bin/test-se -v 2 > fetch_debug.log
+  184  bin/test-se -v 2 > fetch_debug.log
+  185  bin/test-se -v 2 > fetch_debug.log
+  186  bin/test-se -h
+  187  bin/test-se -w 2 -v 2 > fetch_debug.log
+  188  make
+  189  bin/test-se -w 2 -v 2 > fetch_debug.log
+  190  bin/test-hw
+  191  make
+  192  bin/test-se -w 2 -v 2 > fetch_debug.log
+  193  make
+  194  bin/test-se -w 2 -v 2 > fetch_debug.log
+  195  make
+  196  bin/test-se -w 2 -v 2 > fetch_debug.log
+  197  make
+  198  bin/test-se -w 2 -v 2 > fetch_debug.log
+  199  make
+  200  bin/test-se -w 2 -v 2 > fetch_debug.log
+  201  make
+  202  bin/test-se -w 2 -v 2 > fetch_debug.log
+  203  make
+  204  bin/test-se -w 2 -v 2 > fetch_debug.log
+  205  make
+  206  bin/test-se -w 2 -v 2 > fetch_debug.log
+  207  make
+  208  bin/test-se -w 2 -v 2 > fetch_debug.log
+  209  make
+  210  bin/test-se -w 2 -v 2 > fetch_debug.log
+  211  make
+  212  make
+  213  make
+  214  make
+  215  bin/test-se -w 2 -v 2 > fetch_debug.log
+  216  make
+  217  bin/test-se -w 2 -v 2 > fetch_debug.log
+  218  make
+  219  bin/test-se -w 2 -v 2 > fetch_debug.log
+  220  bin/test-se -w 2 -v 3 > fetch_debug.log
+  221  bin/test-se -w 2 -v 4 > fetch_debug.log
+  222  bin/test-se -w 2 -v 1 > fetch_debug.log
+  223  bin/test-se -w 2 -v 0 > fetch_debug.log
+  224  bin/test-se -w 2 > fetch_debug.log
+  225  bin/test-se -w 2 -v 1 > fetch_debug.log
+  226  make
+  227  bin/test-se -w 2 -v 1 > fetch_debug.log
+  228  bin/test-se -w 2 -v 1 > fetch_debug.log
+  229  make
+  230  bin/test-se -w 2 -v 1 > fetch_debug.log
+  231  make
+  232  bin/test-se -w 2 -v 1 > fetch_debug.log
+  233  make
+  234  bin/test-se -w 2 -v 1 > fetch_debug.log
+  235  make
+  236  bin/test-se -w 2 -v 1 > fetch_debug.log
+  237  make
+  238  bin/test-se -w 2 -v 1 > fetch_debug.log
+  239  make week2
+  240  bin/test-se -w 2 -v 1 > fetch_debug.log
+  241  make week2
+  242  bin/test-se -w 2 -v 1 > fetch_debug.log
+  243  make week2
+  244  bin/test-se -w 2 -v 1 > fetch_debug.log
+  245  make week2
+  246  make week2
+  247  bin/test-se -w 2 -v 1 > fetch_debug.log
+  248  make week2
+  249  bin/test-se -w 2 -v 1 > fetch_debug.log
+  250  bin/test-se -w 2 -v 2 > fetch_debug.log
+  251  make week2
+  252  bin/test-se -w 2 -v 2 > fetch_debug.log
+  253  make week2
+  254  bin/test-se -w 2 -v 2 > fetch_debug.log
+  255  make week2
+  256  bin/test-se -w 2 -v 2 > fetch_debug.log
+  257  make week2
+  258  bin/test-se -w 2 -v 2 > fetch_debug.log
+  259  make week2
+  260  make week2
+  261  bin/test-se -w 2 -v 2 > fetch_debug.log
+  262  make week2
+  263  bin/test-se -w 2 -v 2 > fetch_debug.log
+  264  make week2
+  265  bin/test-se -w 2 -v 2 > fetch_debug.log
+  266  make week2
+  267  bin/test-se -w 2 -v 2 > fetch_debug.log
+  268  make week2
+  269  bin/test-se -w 2 -v 2 > fetch_debug.log
+  270  make week2
+  271  bin/test-se -w 2 -v 2 > fetch_debug.log
+  272  make week2
+  273  bin/test-se -w 2 -v 2 > fetch_debug.log
+  274  make week2
+  275  bin/test-se -w 2 -v 2 > fetch_debug.log
+  276  make week2
+  277  bin/test-se -w 2 -v 2 > fetch_debug.log
+  278  make week2
+  279  bin/test-se -w 2 -v 2 > fetch_debug.log
+  280  make week2
+  281  bin/test-se -w 2 -v 2 > fetch_debug.log
+  282  git commit -a -m "debugged"
+  283  git push
+  284  bin/test-se -w 2 -v 2 > fetch_debug.log
+  285  bin/test-se -w 2 > fetch_debug.log
+  286  bin/test-se -w 2 -v 1 > fetch_debug.log
+  287  make
+  288  make week2
+  289  bin/test-se -w 2 -v 1 > fetch_debug.log
+  290  make week2
+  291  bin/test-se -w 2 -v 1 > fetch_debug.log
+  292  git commit -a -m "fixed fetch a lil"
+  293  git push
+  294  make week 2
+  295  make week2
+  296  make week2
+  297  bin/test-se -w 2 -v 1 > my_output.txt
+  298  maake
+  299  make
+  300  ./mini_ci
+  301  ./mini_ci testcases/basic_add.s
+  302  make check
+  303  make clean
+  304  make debug
+  305  gdb mini_ci
+  306  make
+  307  ./mini_ci testcases/basic_add.s
+  308  ./mini_ci_reference testcases/basic_add.s
+  309  make clean
+  310  make tests
+  311  ./mini_ci testcases/multi_op_err.s
+  312  ./mini_ci_reference testcases/multi_op_err.s
+  313  ./mini_ci testcases/multi_op_err2.s
+  314  ./mini_ci_reference testcases/multi_op_err2.s
+  315  make clean
+  316  make debug
+  317  gdb mini_ci
+  318  make clean
+  319  make check
+  320  make clean
+  321  make debug
+  322  gdb
+  323  gdb mini_ci
+  324  make clean
+  325  make check
+  326  make check
+  327  historyu
+  328  history
+  329  history > shell_logs.txt
+  330  gdb
+  331  touch "   12  run testcases/multi_opp_err2.s
+  332     13  run testcases/multi_opp_err2.s
+  333     14  r testcases/multi_op_err2.s
+  334     15  p ne_token->val
+  335     16  p new_token->val
+  336     17  p val_b->val
+  337     18  p val_a->val
+  338     19  q
+  339     20  show commands > gdb_logs.txt
+  340     21  show commands" gdb_logs.txt
+  341  git add .
+  342  git commit -a -m "fixed bugs"
+  343  touch ~/.gdbinit
+  344  ls
+  345  ls -a
+  346  echo "set history save on" > .gdbinit
+  347  cat ~/.gdbinit
+  348  git clone git@github.com:CS429-SP2025/mastery-version-b.git
+  349  ls
+  350  cd mastery-version-b
+  351  touch ~/.gdbinit
+  352  echo
+  353  echo "set history save on" > .gdbinit
+  354  ls
+  355  ls -a
+  356  cat .gdbinit
+  357  git clone git@github.com:nickpatt/mastery-version-e.git
+  358  make clean
+  359  make check
+  360  ./mini_ci testcases/basic_add.s
+  361  gdb mini_ci
+  362  gdb mini_ci
+  363  make debug
+  364  make clean
+  365  make debug
+  366  gdb mini_ci
+  367  make clean
+  368  make check
+  369  history > shell_logs.txt
+  370  gdb mini_ci
+  371  touch gdb_logs.txt
+  372  git add .
+  373  git commit -a -m "updated fix"
+  374  git push
+  375  clear
+  376  history > shell_logs.txt
+  377  make stitch
+  378  make pleakley
+  379  gdb second_trie
+  380  gdb second_trie
+  381  make lilo
+  382  gdb trie.c
+  383  gdb bin/trie
+  384  gdb bin/second_trie
+  385  make clean
+  386  make
+  387  make stitch
+  388  make lilo
+  389  gdb bin/second_trie
+  390  make cobra
+  391  make stitch
+  392  make lilo
+  393  gdb bin/second_trie
+  394  make nani
+  395  make pleakley
+  396  gdb bin/trie.o
+  397  gdb bin/second_trie
+  398  make pleakley
+  399  make cobra
+  400  make stitch
+  401  make lilo
+  402  gdb bin/second_trie
+  403  man strncpy
+  404  make cobra
+  405  make lilo
+  406  make stitch
+  407  ./trie_ref
+  408  -w ./trie_ref
+  409  run trie_ref
+  410  gdb bin/second_trie
+  411  make nani
+  412  make lilo
+  413  gdb bin/second_trie
+  414  make cobra
+  415  make lilo
+  416  make cobra
+  417  make lilo
+  418  make stitch
+  419  make pleakley
+  420  make nani
+  421  make cobra
+  422  make lilo
+  423  make stitch
+  424  make nani
+  425  make cobra
+  426  make lilo
+  427  make nani
+  428  make cobra
+  429  make lilo
+  430  history
+  431  history > shell_logs.txt
+  432  gdb bin/second_trie
+  433  make
+  434  make check
+  435  make debug
+  436  make
+  437  make clean
+  438  make 
+  439  make debug
+  440  gdb bin/a.out
+  441  make 
+  442  make clean
+  443  make 
+  444  make check
+  445  make clean
+  446  make
+  447  make check
+  448  make debug
+  449  gdb a.out
+  450  gdb bin/a.out
+  451  make clean
+  452  make 
+  453  make check
+  454  gdb bin/a.out
+  455  make clean
+  456  make debug
+  457  make
+  458  gdb bin/a.out
+  459  gdb bin/a.out
+  460  make clean
+  461  make dbug
+  462  make
+  463  make
+  464  make debug
+  465  gdb bin/a.out
+  466  gdb bin/a.out
+  467  make debug
+  468  gdb bin/a.out
+  469  make clean
+  470  make
+  471  make clean
+  472  make 
+  473  make clean
+  474  make
+  475  make
+  476  make clean
+  477  make 
+  478  make check
+  479  make comp
+  480  make comp
+  481  make clean
+  482  make
+  483  make check
+  484  make comp
+  485  history > shell_logs.txt
+  486  gdb
+  487  git add .a
+  488  git add .
+  489  git commit -a -m "hi"
+  490  git push
+  491  make
+  492  make check
+  493  make comp
+  494  gdb bin/a.out
+  495  gdb bin/a.out
+  496  gdb bin/a.ouit
+  497  gdb bin/a.out
+  498  make clean
+  499  make 
+  500  make check
+  501  make clean
+  502  make 
+  503  make check
+  504  make clean
+  505  make
+  506  gdb bin/a.out
+  507  make comp
+  508  make clean
+  509  make debug
+  510  gdb bin/a.out
+  511  make clean
+  512  make 
+  513  make check
+  514  make comp
+  515  history > shell_logs.txt

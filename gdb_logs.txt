@@ -1,0 +1,10 @@
+   14  break grind:34
+   15  q
+   16  r testcases/short1.rep
+   17  r -t testcases/short1.rep
+   18  q
+   19  r testcases/short1.rep
+   20  r -t testcases/short1.rep
+   21  q
+   22  show history
+   23  show commands
